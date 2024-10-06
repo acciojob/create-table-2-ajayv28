@@ -1,8 +1,8 @@
 function createTable() {
     // Get the number of rows from the user
-    const rows = prompt("Input number of rows:").trim(); // Trim any whitespace
+    const rows = prompt("Input number of rows:").trim(); // Ensure no extra spaces
     // Get the number of columns from the user
-    const cols = prompt("Input number of columns:").trim(); // Trim any whitespace
+    const cols = prompt("Input number of columns:").trim(); // Ensure no extra spaces
 
     // Convert inputs to integers
     const rowCount = parseInt(rows, 10);
